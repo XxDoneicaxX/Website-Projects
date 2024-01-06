@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Practice</h1>
@@ -11,7 +12,7 @@
 
      <Section>
         <nav>
-            <img src="img/FES.svg" alt="">
+            <img src="img/FES.svg" alt="" class="logo">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
@@ -19,52 +20,58 @@
             </ul>
         </nav>
         <header>
+            <div class="row">
             <div>
-                <h1> Best Place to LEarn Frontend</h1>
-                <p> Go from being an absolute beginner to a pro with a simplified process</p>
+                <h1> Best Place to Learn Frontend</h1>
+                <p class="subheader"> Go from being an absolute beginner to a pro with a simplified process</p>
                 <button>Start Now</button>
             </div>
             <figure>
                 <img src="img/laptop.png" alt="Home page image"> 
              </figure>
+            </div>
         </header>
      </Section>
      <main>
         <Section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+           <div class="section__description">
+            <div class="section__description--wrapper">
+                <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing 
                     elit. Doloremque perspiciatis consectetur inventore 
                     consequatur, debitis pariatur. Quisquam id, tenetur, 
                     explicabo optio sequi facilis veritatis consectetur 
                     ipsa, quia necessitatibus quae fugiat praesentium.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing 
                     elit. Doloremque perspiciatis consectetur inventore 
                     consequatur, debitis pariatur. Quisquam id, tenetur, 
                     explicabo optio sequi facilis veritatis consectetur 
                     ipsa, quia necessitatibus quae fugiat praesentium.</p>
             </div>
-           <figure>
+           <figure class="about__img--wrapper">
             <img src="img/about.jpg" alt="">
            </figure>
+        </div>
         </Section>
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
+            <figure class="about__img--wrapper">
                 <img src="img/discord.png" alt="">
                </figure>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+               <div class="section__description">
+            <div class="section__description--wrapper">
+                <p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing 
                     elit. Doloremque perspiciatis consectetur inventore 
                     consequatur, debitis pariatur. Quisquam id, tenetur, 
                     explicabo optio sequi facilis veritatis consectetur 
                     ipsa, quia necessitatibus quae fugiat praesentium.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+                <p class="section__description--para" >Lorem ipsum, dolor sit amet consectetur adipisicing 
                     elit. Doloremque perspiciatis consectetur inventore 
                     consequatur, debitis pariatur. Quisquam id, tenetur, 
                     explicabo optio sequi facilis veritatis consectetur 
                     ipsa, quia necessitatibus quae fugiat praesentium.</p>
-            </div>   
+            </div> 
+        </div>  
         </section>
         <section id="contact">
             <h2>Contact</h2>
